@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,sum=0,fact=1,temp,count=1,d,num=0;
+    int n,i,sum=0,fact=1,temp,count=1,d,num=0,a,b,flag=0;
 
     // solution of question no 1
     printf("Enter a number\n");
@@ -88,6 +88,37 @@ int main()
     }
     count=count-1;
     printf("Number of digits is %d ",count);
+
+
+    // solution of question no 8
+    printf("Enter a number ");
+    scanf("%d",&num);
+    for(i=2;i<num;i++)
+    {
+        if(num%i==0)
+        {
+            flag=1;
+            break;
+        }  
+    }
+    if(flag==1)
+    {
+        printf("Not a Prime Number");
+    }
+    else{
+        printf("Prime number");
+    }
+
+    // solution of question no 9
+    printf("Enter two numbers\n");
+    scanf("%d%d",&a,&b);
+    for(i=1 ;i<=(a*b); i++)
+    {
+        if(i%a==0 && i%b==0)
+        {
+            printf("LCM is %d ",i);
+        }
+    }
 
 
     // solution of question no 10
