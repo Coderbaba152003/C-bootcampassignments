@@ -364,19 +364,3 @@
                 
                                            
         // }
-//         int firstAdjacentDuplicate(int numbers[], int n)
-// {
-//     for (int i = 0; i < n - 1; i++)
-//         if (numbers[i] == numbers[i + 1])
-//             return numbers[i];
-// }
-// int main(){
-//  int n;
-//     printf("How Many Numbers:- ");
-//     scanf("%d", &n);
-//     printf("Enter %d Numbers:-\n", n);
-//     int numbers[n];
-//     for (int i = 0; i < n; i++)
-//         scanf("%d", &numbers[i]);
-//     printf("First Adjacent Duplicate Element :- %d", firstAdjacentDuplicate(numbers, n));
-// }
