@@ -222,41 +222,41 @@
 
 // solution of question no 8 #############################################################################
 
-    int countwords(char[]);
-    int main()
-    {
-        char str[40];
-        printf("Enter a string: ");
-        fgets(str,40,stdin);
-        str[strcspn(str,"\n")] = '\0';
-        printf("Total number of words in the string is %d",countwords(str));
-    }
+//     int countwords(char[]);
+//     int main()
+//     {
+//         char str[40];
+//         printf("Enter a string: ");
+//         fgets(str,40,stdin);
+//         str[strcspn(str,"\n")] = '\0';
+//         printf("Total number of words in the string is %d",countwords(str));
+//     }
 
-    int countwords(char str[])
-    {
-      int length,i,count=0;
-      for(length = 0; str[length]!=0; length++)
-      {
-        ;
-      }
+//     int countwords(char str[])
+//     {
+//       int length,i,count=0;
+//       for(length = 0; str[length]!=0; length++)
+//       {
+//         ;
+//       }
 
-      for(i=0; i<length; i++)
-      {
-        if(str[i==32])
-        break;
-      }
-      if(i==length)
-      count ++;
-      for(i=0; str[i]!=0; i++)
-      {
-        if(str[i] == 32)
-        {
-            if(str[i+1]!=32 || str[i-1]!=32)
-            count ++;
-        }
-      }
-      return count;
-    }
+//       for(i=0; i<length; i++)
+//       {
+//         if(str[i==32])
+//         break;
+//       }
+//       if(i==length)
+//       count ++;
+//       for(i=0; str[i]!=0; i++)
+//       {
+//         if(str[i] == 32)
+//         {
+//             if(str[i+1]!=32 || str[i-1]!=32)
+//             count ++;
+//         }
+//       }
+//       return count;
+//     }
 
 
 // solution of question no 10 #############################################################################
