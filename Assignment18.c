@@ -222,7 +222,7 @@
 
 // solution of question no 8 #############################################################################
 
-//     int countwords(char[]);
+//  int countwords(char[]);
 //     int main()
 //     {
 //         char str[40];
@@ -242,18 +242,10 @@
 
 //       for(i=0; i<length; i++)
 //       {
-//         if(str[i==32])
-//         break;
-//       }
-//       if(i==length)
-//       count ++;
-//       for(i=0; str[i]!=0; i++)
-//       {
-//         if(str[i] == 32)
-//         {
-//             if(str[i+1]!=32 || str[i-1]!=32)
-//             count ++;
-//         }
+//         if(str[i] != 32 )
+//         count ++;
+//         while(str[i]!=32)
+//         i++;
 //       }
 //       return count;
 //     }
