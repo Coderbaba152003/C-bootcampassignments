@@ -272,53 +272,53 @@ using namespace std;
 
 // solution of question no 10 ########################################################
 
-class Area
-{
-    private:
-        float radius,length,breadth,side,area;
-    public:
-        void setForCircle(float r)
-        {
-            radius = r;
-        }
+// class Area
+// {
+//     private:
+//         float radius,length,breadth,side,area;
+//     public:
+//         void setForCircle(float r)
+//         {
+//             radius = r;
+//         }
 
-        void setForSquare(float s)
-        {
-            side = s;
-        }
+//         void setForSquare(float s)
+//         {
+//             side = s;
+//         }
 
-        void setForrectangle(float l,float b)
-        {
-            length = l;
-            breadth = b;
-        }
+//         void setForrectangle(float l,float b)
+//         {
+//             length = l;
+//             breadth = b;
+//         }
 
-        void calAreaforCircle()
-        {
-            area = 3.14*radius*radius;
-            cout<<"Area of circle is: "<<area<<endl;
-        }
+//         void calAreaforCircle()
+//         {
+//             area = 3.14*radius*radius;
+//             cout<<"Area of circle is: "<<area<<endl;
+//         }
 
-        void calAreaforSquare()
-        {
-            area = side*side;
-            cout<<"Area of square is: "<<area<<endl;
-        }
-        void calAreaforRectangle()
-        {
-            area = length*breadth;
-            cout<<"Area of rectangle is: "<<area<<endl;
-        }
-};
+//         void calAreaforSquare()
+//         {
+//             area = side*side;
+//             cout<<"Area of square is: "<<area<<endl;
+//         }
+//         void calAreaforRectangle()
+//         {
+//             area = length*breadth;
+//             cout<<"Area of rectangle is: "<<area<<endl;
+//         }
+// };
 
-int main()
-{
-    Area a1,a2,a3;
-    a1.setForCircle(4);
-    a2.setForrectangle(5,7);
-    a3.setForSquare(9);
-    a1.calAreaforCircle();
-    a2.calAreaforRectangle();
-    a3.calAreaforSquare();
-    return 0;
-}
+// int main()
+// {
+//     Area a1,a2,a3;
+//     a1.setForCircle(4);
+//     a2.setForrectangle(5,7);
+//     a3.setForSquare(9);
+//     a1.calAreaforCircle();
+//     a2.calAreaforRectangle();
+//     a3.calAreaforSquare();
+//     return 0;
+// }
